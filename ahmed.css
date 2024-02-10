@@ -1,0 +1,172 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+body{
+    
+    background-color: rgba(9, 9, 51, 0.849);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+}
+ul {
+    display: inline-flex;
+    text-decoration: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    justify-content: space-around;
+}
+header ul li{
+    display: inline-block;
+    margin: 0 6px;
+}
+ul li a{
+    text-decoration: none;
+    display: block;
+    color: rgba(255, 255, 255, 0.26);
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+ul li a:hover{
+    color: aliceblue;
+    border-bottom: rgb(165, 142, 11) 5px solid;
+    border-radius: 10px;
+}
+.p{
+    position: absolute;
+    left: 210px;
+    top: 200px;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: capitalize;
+    font-size: large;
+}
+.inbut{
+    display: grid;
+    justify-content: center;
+    position: absolute;
+    right: 950px;
+    top: 300px;
+    column-rule-style: dashed;
+    
+}
+.inbut input{
+    background: rgba(58, 53, 99, 0.466);
+    justify-items: center;
+    text-decoration: none;
+    width: 470px;
+    height: 70px;
+    margin-top: 4px;
+    border-left: rgb(165, 142, 11) 5px solid;
+    border-right: 1px solid rgba(58, 53, 99, 0.466);
+    border-top:1px solid rgba(58, 53, 99, 0.466);
+    border-bottom: 1px solid rgba(58, 53, 99, 0.466);
+}
+
+.back{
+    position: absolute;
+    left: 210px;
+    top: 470px;
+    margin-top: 5px;
+}
+.come{
+    position: relative;
+    bottom: 18px;
+    left: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.come p{
+    color: white;
+    position: absolute;
+    right: 40px;
+}
+.back .come a{
+    position: relative;
+    left: 304px;
+    width: 100%;
+    color:rgba(36, 31, 75, 0.829) ;
+    text-decoration: none;
+}
+.button{
+    position: absolute;
+    left: 210px;
+    top: 550px;
+    
+}
+.button button{
+    width: 250px;
+    height: 60px; 
+    border: rgb(165, 142, 11) solid 1px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 900;
+    background-color: rgb(182, 141, 53);
+    box-shadow:2px 2px 8px 8px rgba(182, 141, 53, 0.527);
+}
+.button button:hover{
+    width: 255px;
+    transition: 1s;
+    transform: scale(1.3);
+}
+.me{
+    position: absolute;
+    left: 210px;
+    top: 690px;
+    color:rgba(33, 31, 58, 0.918) ;
+    
+}
+.social{
+    display: flex;
+}
+.social a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 4px solid;
+    margin: 22px 10px;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    left: 350px;
+    top: 545px;
+}
+.social a:hover{
+    transform: scale(1.3);
+    transition: .3s;
+}
+#f{
+    color: rgb(217, 217, 219);
+    
+}
+#f:hover{
+    transform: scale(1.3);
+    transition: .8s;
+}
+
+
+#bolo{
+background-image:url(../cours/Asus\ Wallpaper\ HD\ ·①\ \ WallpaperTag.jpg) ;
+color: #00000000;
+position: absolute;
+left: 820px;
+bottom: 0px;
+background-size: cover;
+width: 812px;
+height: 1010px;
+background-repeat: no-repeat;
+
+}
